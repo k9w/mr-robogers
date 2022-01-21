@@ -57,10 +57,9 @@ number entered in the form by the user."
 
 Code:
 function returnNumberRange(0, numberInput) {
-  const lengh = numberInput + 1;
-  let array = [];
-  for (i = start; i < end; this, until, increment/decrement up/down by one) {
-    
+  const array = [];
+  for (i = 0; i <= numberInput; i++) {
+    array.push();
   }
 }
 
