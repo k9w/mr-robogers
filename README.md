@@ -56,8 +56,9 @@ Test: "It should return a range of numbers from zero (0) up through the
 number entered in the form by the user."
 
 Code:
-function returnNumberRange(0, parseInt($("#numberInputField").val());) {
-  const lengh = end - start + 1;
+function returnNumberRange(0, numberInput) {
+  const lengh = numberInput + 1;
+  let array = [];
   for (i = start; i < end; this, until, increment/decrement up/down by one) {
     
   }

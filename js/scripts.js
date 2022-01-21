@@ -33,6 +33,7 @@ function () {
 $(document).ready(function() {
   $("").submit(function(event) {
     event.preventDefault();
+    const numberInput = parseInt($("#numberInputField").val());
     const word = $("").val();
     $("").text(function())
   });
