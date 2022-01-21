@@ -15,16 +15,16 @@ _Welcome to my third independent project as a student at
 [Epicodus](https://epicodus.com)!_
 
 [Here is the
-lesson](https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/javascript-and-jquery-independent-project)
+lesson](https://www.learnhowtoprogram.com/introduction-to-programming/arrays-and-looping/arrays-and-looping-independent-project)
 from [the curriculum](https://learnhowtoprogram.com) where I made this
-page on Friday January 14th 2022. Check out more of my work at:
+page on Friday January 21st 2022. Check out more of my work at:
 
  * https://github.com/k9w
 
 
 ## Setup/Installation Requirements
 
-* _Visit the live site at https://k9w.github.io/programming-language-suggester_
+* _Visit the live site at https://k9w.github.io/mr-robogers-neighborhood_
 * _Or clone the repo and open index.html in a browser._
 
 
