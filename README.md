@@ -1,30 +1,30 @@
-# _First JavaScript project with jQuery_
+# _My third independent project with Epicodus_
 
 #### By _**Kevin Williams**_
 
-#### _HTML Help_
+#### _Mr Roboger's Neighborhood_
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _JavaScript_
+* _Javascript_
 * _jQuery_
 
 ## Description
 
-_Welcome to the first project with JavaScript assigned by [Epicodus](https://epicodus.com) to introduce jQuery. Specifically, it demonstrates separation of Business Logic and User Interface Logic in a specialized calculator web app for cleaner, easier-to-read JavaScript code. The app's specialty is to convert between units of temperature._
+_Welcome to my third independent project as a student at
+[Epicodus](https://epicodus.com)!_
 
-[The
-lesson](https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/introduction-to-jquery)
-from [the curriculum](https://learnhowtoprogram.com) for this project was originally assigned for pair programming during class time on Monday January 10th 2022. We rushed through it and did not publish our work (to my knowledge). I went through it later on my own starting on Monday the 17th. Check out more of my work at:
+[Here is the
+lesson](https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/javascript-and-jquery-independent-project)
+from [the curriculum](https://learnhowtoprogram.com) where I made this
+page on Friday January 14th 2022. Check out more of my work at:
 
  * https://github.com/k9w
 
 
 ## Setup/Installation Requirements
 
-* _Visit the live site at https://k9w.github.io/html-help_
+* _Visit the live site at https://k9w.github.io/programming-language-suggester_
 * _Or clone the repo and open index.html in a browser._
 
 
@@ -32,8 +32,8 @@ from [the curriculum](https://learnhowtoprogram.com) for this project was origin
 
 _For any problems, please file an issue on Github. Pull Requests welcome._
 
-- _No known issues yet._
-- _Please report any you find._
+- _After a choice is selected and submitted, the page returns no results._
+- _Also after a choice is selected and submitted, the dropdown reverts to the first choice._
 
 
 ## License
