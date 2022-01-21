@@ -7,13 +7,16 @@ function () {
 
 /* Business Logic */
 
-Business
 
-function returnNumberRange(parameter) {
-  for (this, until, increment/decrement up/down by one) {
-    
+function returnNumberRange(numberInput) {
+  const array = [];
+  for (let i = 0; i < numberInput; i++) {
+    array.push(i);
   }
+  return array; // how do I pass this value back to the calling
+                // statement?
 }
+
 
 function () {
   if () {
@@ -34,7 +37,7 @@ $(document).ready(function() {
   $("").submit(function(event) {
     event.preventDefault();
     const numberInput = parseInt($("#numberInputField").val());
-    const word = $("").val();
+    returnNumberRange().val();
     $("").text(function())
   });
 });

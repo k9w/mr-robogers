@@ -53,14 +53,17 @@ Output:
 Describe: returnNumberRange()
 
 Test: "It should return a range of numbers from zero (0) up through the
-number entered in the form by the user."
+number entered in the HTML Form by the user."
 
 Code:
-function returnNumberRange(0, numberInput) {
+const numberInput = 10;
+function returnNumberRange(numberInput) {
   const array = [];
-  for (i = 0; i <= numberInput; i++) {
-    array.push();
+  for (let i = 0; i < numberInput; i++) {
+    array.push(i);
   }
+  return array; // how do I pass this value back to the calling
+                // statement?
 }
 
 
