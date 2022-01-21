@@ -21,6 +21,68 @@ page on Friday January 21st 2022. Check out more of my work at:
 
  * https://github.com/k9w
 
+The Specifications section below describes my understanding of what the program
+should do.
+
+The Tests section outlines the tests as I implement them.
+
+### Specifications
+
+NOTE: This section does not specify which features have been implemented
+thus far. It only outlines what the program is supposed to do.
+
+The form on the page asks the user to enter any integer number of one or
+more digits in length.
+
+By default, the page returns a range of integer numbers from 0 up
+through the number entered by the user. For example:
+
+```
+Input: 45
+Output: 
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,11, 12, 13, 14, 15, 16, 17, 18, 19,
+20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
+38, 39, 40, 41, 42, 43, 44, 45
+```
+
+
+
+### Tests
+
+```
+Describe: returnNumberRange()
+
+Test: "It should return a range of numbers from zero (0) up through the
+number entered in the form by the user."
+
+Code:
+function returnNumberRange(parameter) {
+  for (this, until, increment/decrement up/down by one) {
+    
+  }
+}
+
+
+Example Input: 
+45
+
+Expected Output: 
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,11, 12, 13, 14, 15, 16, 17, 18, 19,
+20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
+38, 39, 40, 41, 42, 43, 44, 45
+
+```
+
+```
+Describe: beepBoop()
+
+Test: "It should return an array with a 0 if the number 0 is inputted"
+Code: beepBoop(0);
+Expected Output: 0
+
+Test: "It should..." // this is the start of 2nd test for beepBoop()
+```
+
 
 ## Setup/Installation Requirements
 

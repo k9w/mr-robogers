@@ -9,7 +9,7 @@ function () {
 
 Business
 
-function functionName(parameter) {
+function returnNumberRange(parameter) {
   for (this, until, increment/decrement up/down by one) {
     
   }
