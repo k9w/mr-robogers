@@ -37,7 +37,7 @@ $(document).ready(function() {
   $("").submit(function(event) {
     event.preventDefault();
     const numberInput = parseInt($("#numberInputField").val());
-    returnNumberRange().val();
+    returnNumberRange(numberInput);
     $("").text(function())
   });
 });
