@@ -34,11 +34,12 @@ function () {
 /* User Interface Logic */
 
 $(document).ready(function() {
-  $("").submit(function(event) {
+  $("form#enterANumber").submit(function(event) {
     event.preventDefault();
+    const numberRangeArray = [];
     const numberInput = parseInt($("#numberInputField").val());
     returnNumberRange(numberInput);
-    $("").text(function())
+    $("#output").text(numberRangeArray)
   });
 });
 

@@ -56,14 +56,12 @@ Test: "It should return a range of numbers from zero (0) up through the
 number entered in the HTML Form by the user."
 
 Code:
+const numberRangeArray = [];
 const numberInput = 10;
 function returnNumberRange(numberInput) {
-  const array = [];
   for (let i = 0; i < numberInput; i++) {
-    array.push(i);
+    numberRangeArray.push(i);
   }
-  return array; // how do I pass this value back to the calling
-                // statement?
 }
 
 
