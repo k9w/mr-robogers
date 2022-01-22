@@ -1,9 +1,5 @@
 /* Utility Logic */
 
-function () {
-  
-}
-
 
 /* Business Logic */
 
@@ -15,19 +11,6 @@ function returnNumberRange(numberInput) {
   }
   return array; // how do I pass this value back to the calling
                 // statement?
-}
-
-
-function () {
-  if () {
-    
-  }
-  else if {
-    
-  }
-  else {
-    
-  }
 }
 
 
