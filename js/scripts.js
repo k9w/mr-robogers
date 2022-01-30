@@ -4,14 +4,15 @@
 /* Business Logic */
 
 
-function returnNumberRange(numberInput) {
+function getNumberRange(numberInput) {
   const array = [];
-  for (let i = 0; i < numberInput; i++) {
+  for (let i = 0; i < numberInput + 1; i++) {
     array.push(i);
   }
-  return array; // how do I pass this value back to the calling
-                // statement?
+  return array;
 }
+
+console.log(getNumberRange(7));
 
 
 /* User Interface Logic */
