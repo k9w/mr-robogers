@@ -1,6 +1,3 @@
-/* Utility Logic */
-
-
 /* Business Logic */
 
 
@@ -9,42 +6,25 @@ function getNumberRange(inputtedNumber) {
   for (let i = 0; i < inputtedNumber + 1; i++) {
     array.push(i);
   }
-//  convertNumbersContaining1s2s3sToStringOfWords(array);
+  for (const element of array) {
+    if (element.includes(3) === true) {
+      // convert number containing 3 to "Won't you be my neighbor?"
+      element.toString("Won't you be my neighbor?");
+      console.log(element);
+    } else if (element.includes(2) === true) {
+      // convert number containing 2 to "Boop!"
+      element.toString("Boop!");
+      console.log(element);
+    } else if (element.includes(1) === true) {
+      // convert number containing 1 to "Beep!"
+      element.toString("Beep!");
+      console.log(element);
+    } else {
+      console.log("This is a " + array[i]);
+    }
+  }
   return array;
 }
-
-/*
-
-pseudocode
-
-for each element in the array
-
-convert it from number to string and save it in a new array of strings
-(leave the original array unmodified)
-
-check if string contains 1, 2, or 3.
-
-if it contains a 1, change the whole string from the number to:
-"Beep!"
-
-if it contains a 2, change the whole string from the number to:
-"Boop!"
-
-if it contains a 3, change the whole string from the number to:
-"Won't you be my neighbor?"
-
-function convertNumbersContaining1s2s3sToStringOfWords(array) {
-  
-}
-
-function doesNumberContain1s2s3s(array) {
-  let string = element.toString();
-  string.includes(word)
-}
-
-*/
-
-
 
 /* User Interface Logic */
 
