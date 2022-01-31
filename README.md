@@ -88,7 +88,7 @@ Test: "It should..." // this is the start of 2nd test for beepBoop()
 
 ## Setup/Installation Requirements
 
-* _Visit the live site at https://k9w.github.io/mr-robogers-neighborhood_
+* _Visit the live site at https://k9w.github.io/mr-robogers_
 * _Or clone the repo and open index.html in a browser._
 
 
