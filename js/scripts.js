@@ -18,16 +18,14 @@ function getNumberRange(inputtedNumber) {
 /* User Interface Logic */
 
 $(document).ready(function() {
-  $("form#enterANumber").submit(function(event) {
+    $("form#enterANumber").submit(function(event) {
     event.preventDefault();
-    let defaultDomState = document.body.innerHTML;
+    $("#result").empty();
     console.log(parseInt($("#numberInput").val()));
     let numberRange = getNumberRange(parseInt($("#numberInput").val()));
-    console.log(numberRange);  
+    console.log(numberRange);
     $("#result").show();
     $("#result").append(numberRange);
-    alert("Read the result on the page. It disappears after you dismiss this alert.");
-    document.body.innerHTML = defaultDomState;
   });
 });
 
