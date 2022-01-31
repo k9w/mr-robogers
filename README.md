@@ -96,8 +96,8 @@ Test: "It should..." // this is the start of 2nd test for beepBoop()
 
 _For any problems, please file an issue on Github. Pull Requests welcome._
 
-- _After a choice is selected and submitted, the page returns no results._
-- _Also after a choice is selected and submitted, the dropdown reverts to the first choice._
+- _With the big 'for' loop commented out of scripts.js lines 19 through 35, the numbers display correctly on the rendered site, but not with the word substitutions requested by the project prompt._
+- _That same 'for' loop fails with the error "Uncaught TypeError: scripts.js:20:17 - element.includes is not a function"._
 
 
 ## License

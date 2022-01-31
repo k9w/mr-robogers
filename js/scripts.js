@@ -6,7 +6,17 @@ function getNumberRange(inputtedNumber) {
   for (let i = 0; i < inputtedNumber + 1; i++) {
     array.push(i);
   }
-  for (const element of array) {
+
+/* The for loop below is suppsed to check for elements in the array
+ * containing 3s, 2s, or 1s, in that order of priority. But it fails
+ * at the first opening if condition because 'element.includes' is not
+ * a function. I don't yet know how to fix that. If you comment out
+ * the entire for loop below, the numbers will display correctly on
+ * the rendered webpage, just not with the word substituions requested
+ * in the project prompt. I could use some help with this.
+ */
+
+  for (let element of array) {
     if (element.includes(3) === true) {
       // convert number containing 3 to "Won't you be my neighbor?"
       element.toString("Won't you be my neighbor?");
@@ -23,6 +33,7 @@ function getNumberRange(inputtedNumber) {
       console.log("This is a " + array[i]);
     }
   }
+
   return array;
 }
 
