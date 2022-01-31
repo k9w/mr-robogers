@@ -21,11 +21,10 @@ $(document).ready(function() {
     $("form#enterANumber").submit(function(event) {
     event.preventDefault();
     $("#result").empty();
-    console.log(parseInt($("#numberInput").val()));
     let numberRange = getNumberRange(parseInt($("#numberInput").val()));
-    console.log(numberRange);
+    numberRange.forEach(element => console.log(element));
     $("#result").show();
-    $("#result").append(numberRange);
+    $("#result").append(numberRange.join(", "));
   });
 });
 
