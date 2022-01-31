@@ -9,7 +9,7 @@ function getNumberRange(inputtedNumber) {
   for (let i = 0; i < inputtedNumber + 1; i++) {
     array.push(i);
   }
-  convertNumbersContaining1s2s3sToStringOfWords(array);
+//  convertNumbersContaining1s2s3sToStringOfWords(array);
   return array;
 }
 
