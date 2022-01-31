@@ -4,15 +4,15 @@
 /* Business Logic */
 
 
-function getNumberRange(numberInput) {
+function getNumberRange(inputtedNumber) {
   const array = [];
-  for (let i = 0; i < numberInput + 1; i++) {
+  for (let i = 0; i < inputtedNumber + 1; i++) {
     array.push(i);
   }
   return array;
 }
 
-console.log(getNumberRange(7));
+
 
 
 /* User Interface Logic */
@@ -20,10 +20,11 @@ console.log(getNumberRange(7));
 $(document).ready(function() {
   $("form#enterANumber").submit(function(event) {
     event.preventDefault();
-    const numberRangeArray = [];
-    const numberInput = parseInt($("#numberInputField").val());
-    returnNumberRange(numberInput);
-    $("#output").text(numberRangeArray)
+    console.log(parseInt($("#numberInput").val()));
+    let numberRange = getNumberRange(parseInt($("#numberInput").val()));
+    console.log(numberRange);  
+    $("#result").show();
+    $("#result").append(numberRange);
   });
 });
 

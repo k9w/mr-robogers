@@ -13,17 +13,19 @@
 <body>
   <div class="container">
     <h1>Mr Roboger's Neighborhood</h1>
-    <p>The user interface for <a
-href="https://github.com/k9w/mr-robogers-neighborhood">this project</a> is not yet implemented.
-    </p>
+    <p>This page asks for a random number and returns a range from zero to that number with some twists thrown in.</p>
     <form id="enterANumber">
       <div class="form-group">
-        <label for="numberInput">Enter an integer number (no
-decimals).</label>
+        <label for="numberInput">Enter a positive integer.</label>
         <input id="numberInput" class="form-control" type="text">
       </div>
       <button type="submit" class="btn">Submit</button>
+      <input type="reset" id="reset" class="btn">
     </form>
+    <br>
+    <div id="result">
+      Result: 
+    </div>
   </div>
 </body>
 </html>
