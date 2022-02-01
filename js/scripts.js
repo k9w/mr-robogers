@@ -6,15 +6,14 @@ function getNumberRange(inputtedNumber) {
     array.push(i);
     let element = array[i];
     if (element.toString().includes("3") === true) {
-      element = "Won't you be my neighbor?";
-    console.log('true');
+      array[i] = "Won't you be my neighbor?";
     } else if (element.toString().includes("2") === true) {
-      element = "Boop!";
+      array[i] = "Boop!";
     } else if (element.toString().includes("1") === true) {
-      element = "Beep!";
+      array[i] = "Beep!";
     }
   }
-  return array;
+  return array.join(", ");
 }
 
 
@@ -24,8 +23,7 @@ $(document).ready(function() {
     $("form#enterANumber").submit(function(event) {
     event.preventDefault();
     $("#result").empty();
-    let numberRange = getNumberRange(parseInt($("#numberInput").val()));
     $("#result").show();
-    $("#result").append(numberRange.join(", "));
+    $("#result").append(getNumberRange(parseInt($("#numberInput").val())));
   });
 });
