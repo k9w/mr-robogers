@@ -17,20 +17,15 @@ function getNumberRange(inputtedNumber) {
  */
 
   for (let element of array) {
-    if (element.includes(3) === true) {
+    if (element.toString.includes("3") === true) {
       // convert number containing 3 to "Won't you be my neighbor?"
-      element.toString("Won't you be my neighbor?");
-      console.log(element);
-    } else if (element.includes(2) === true) {
+      element = "Won't you be my neighbor?";
+    } else if (element.toString.includes("2") === true) {
       // convert number containing 2 to "Boop!"
-      element.toString("Boop!");
-      console.log(element);
-    } else if (element.includes(1) === true) {
+      element = "Boop!";
+    } else if (element.toString.includes("1") === true) {
       // convert number containing 1 to "Beep!"
-      element.toString("Beep!");
-      console.log(element);
-    } else {
-      console.log("This is a " + array[i]);
+      element = "Beep!";
     }
   }
 
